@@ -1,0 +1,33 @@
+{
+  "short_name": "ArquetipoR16",
+  "name": "Arquetipo React 16",
+  "icons": [{
+    "src": "favicon.ico",
+    "sizes": "64x64 32x32 24x24 16x16",
+    "type": "image/x-icon"
+  },{
+    "src": "./iconos/arquetipor16.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  },{
+    "src": "./iconos/arquetipor16_256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  },{
+    "src": "./iconos/arquetipor16_128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  },{
+    "src": "./iconos/arquetipor16_64.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  },{
+    "src": "./iconos/arquetipor16_48.png",
+    "sizes": "48x48 32x32 24x24 16x16",
+    "type": "image/png"
+  }],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

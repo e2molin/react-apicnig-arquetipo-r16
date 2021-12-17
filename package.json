@@ -1,0 +1,59 @@
+{
+  "name": "arquetipor16",
+  "homepage": "/apicnig/arquetipor16",
+  "version": "1.0.0",
+  "description": "Arquetipo para React 16",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e2molin/react-apicnig-arquetipo-r16"
+  },
+  "license": "MIT License",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@wojtekmaj/react-daterange-picker": "^2.4.0",
+    "axios": "^0.18.0",
+    "chromedriver": "^2.46.0",
+    "expect.js": "^0.3.1",
+    "file-saver": "^2.0.2",
+    "i18next": "^11.3.6",
+    "i18next-browser-languagedetector": "^3.0.1",
+    "loaders.css": "^0.1.2",
+    "nightwatch": "^1.0.19",
+    "rc-dropdown": "^3.2.0",
+    "rc-menu": "^8.10.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-element-to-jsx-string": "^14.3.1",
+    "react-i18next": "^7.9.0",
+    "react-icons-kit": "^1.3.1",
+    "react-loaders": "^3.0.1",
+    "react-loading-ui": "^1.1.3",
+    "react-notifications-component": "^2.2.7",
+    "react-rangeslider": "^2.2.0",
+    "react-responsive-modal": "^4.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.0.1",
+    "react-tabs": "^3.0.0",
+    "react-tooltip": "^3.11.1",
+    "shpjs": "^3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "nightwatch --config=test/nightwatch.conf.js",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

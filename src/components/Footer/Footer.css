@@ -1,0 +1,82 @@
+:root{
+  --main-backColor: #007BFF;/*#8f2031;*/
+  --language-letter: #e1e0e0;/*#d3aa7d;*/
+  --height-footer: 90px;
+}
+
+.footer {
+    height: var(--height-footer);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    font-family: 'Fira Sans', sans-serif;
+    overflow-x: auto;
+    z-index: 99999999;
+    overflow-y: hidden;
+    width: 100%;
+    color: white;
+    font-family: "Avenir Next Condensed Medium";
+    /* Como mostrar una imagen SVG con un degradado por detrás */
+    background: -moz-linear-gradient(to right, #3b5a9b 0%,#5387f4 100%);
+    background: -webkit-linear-gradient(to right, #3b5a9b 0%,#5387f4 100%);
+    background: url("./../../static/img/fondo_header_waves.svg"), linear-gradient(to right, #3b5a9b 0%,#5387f4 100%);
+    background-position: left center,center center;
+    background-repeat: no-repeat,no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.footer .footer-contact {
+  width: 35%;
+  padding-left: 3rem;
+}
+
+.footer .footer-contact p a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.footer .footer-others p a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.footer .footer-contact p:nth-child(1) {
+  margin-top: 0.3rem;
+  margin-bottom: 0rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer .footer-contact p:nth-child(2) {
+  margin-top: 0.2rem;
+  margin-bottom: 0rem;
+  font-size: 14px;
+}
+
+.footer .footer-contact p:nth-child(3) {
+  margin-top: 0.1rem;
+  margin-bottom: 0rem;
+  font-size: 14px;
+}
+
+.footer .footer-others {
+  width: 65%;
+  align-items: center;
+}
+
+.footer .footer-others p {
+  margin-top: 0.45rem;
+  margin-bottom: 0rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer .footer-others p.with-icon a > i{
+  position: relative;
+  left: 5px;
+}

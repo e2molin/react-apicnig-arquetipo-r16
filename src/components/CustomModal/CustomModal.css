@@ -1,0 +1,28 @@
+.modalBox {
+  padding: 0rem;
+}
+
+.customModalContent {
+  padding: 1.2rem;
+}
+
+.customModalTitle {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: red;
+  padding: 1rem;
+  background-color: #8f2031;
+  color: white;
+}
+
+.modalCloseButton {
+  cursor: pointer;
+  top: 12px;
+  right: 6px;
+  color: white !important;
+}
+
+.modalOverlay {
+  z-index: 99999999;
+  background: rgba(0, 0, 0, 0.3);
+}

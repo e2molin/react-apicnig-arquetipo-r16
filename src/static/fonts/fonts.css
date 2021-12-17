@@ -1,0 +1,8 @@
+@font-face {font-family: "Avenir Next Condensed Medium";
+    src: url("avenir/avenir.eot"); /* IE9*/
+    src: url("avenir/avenir.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("avenir/avenir.woff2") format("woff2"), /* chrome firefox */
+    url("avenir/avenir.woff") format("woff"), /* chrome firefox */
+    url("avenir/avenir.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("avenir/avenir.svg#Avenir Next Condensed Medium") format("svg"); /* iOS 4.1- */
+}

@@ -1,0 +1,159 @@
+.visor-wrapper {
+    flex: 1;
+    overflow: hidden;
+    height: calc(100vh - 140px);/* 140px = Header height + Footer height */
+}
+
+.visor-wrapper .map {
+    border: 0;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    height: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+    .visor-wrapper {
+        flex: 1;
+        overflow: auto;
+        z-index: 10;
+        position: relative;
+    }
+}
+
+#div-contenedor.m-mousesrs-container {
+  left: calc(50vw - 100px);
+  top: calc(100vh - 170px); /* 100vh - 30px (height coordinates box) - Header height - Footer height*/
+}
+
+@media (min-width: 601px) {
+  .m-panel.ign-searchlocator-panel {
+    position: fixed !important;
+    left: calc(50vw - 210px);
+    top: 60px;
+  }
+}
+
+.m-areas>div.m-area>div.m-panel.opened.m-plugin-backimglayer {
+  z-index: 9999999;
+}
+
+.m-panel.m-plugin-selectionzoom {
+  order: -99 !important;
+}
+
+.m-panel.m-zoompanel {
+  order: -98 !important;
+}
+
+.m-panel.m-predefinedzoom {
+  order: -97 !important;
+}
+
+.m-panel.m-plugin-backimglayer {
+  order: -99 !important;
+}
+
+.m-panel.m-rotate {
+  order: -99 !important;
+}
+
+.m-panel.m-plugin-fulltoc {
+  order: -98 !important;
+}
+
+.m-panel.m-vectors {
+  order: -97 !important;
+}
+
+.m-panel.m-printermap {
+  order: -96 !important;
+}
+
+.m-panel.m-georefimage {
+  order: -95 !important;
+}
+
+.m-panel.m-panel-measurebar {
+  order: -94 !important;;
+}
+
+.m-panel.m-plugin-information {
+  order: -93 !important;
+}
+
+.m-panel.m-plugin-infocoordinates {
+  order: -92 !important;
+}
+
+.m-panel.m-plugin-sharemap {
+  order: -91 !important;
+}
+
+.m-panel.m-panel-popup {
+  order: -93 !important;
+}
+
+.m-panel.m-plugin-contactlink {
+  order: -92 !important;
+}
+
+.m-panel.m-overviewmap-panel {
+  order: -90 !important;
+}
+
+#maplienzo > div > div.ol-overlaycontainer-stopevent > div.m-areas > div.m-area.m-top.m-right > div.m-panel.m-plugin-backimglayer.collapsed > button,
+#maplienzo > div > div.ol-overlaycontainer-stopevent > div.m-areas > div.m-area.m-top.m-left > div.m-panel.m-plugin-fulltoc.collapsed > button,
+.m-panel.m-plugin-fulltoc.opened button.m-panel-btn,
+#m-backimglayer-titulo {
+  background-color: #255374 !important;
+}
+
+.m-plugin-backimglayer.opened .m-panel-btn.g-cartografia-flecha-derecha, .m-plugin-backimglayer.opened .m-panel-btn.g-cartografia-flecha-izquierda {
+  color: #255374 !important;
+}
+
+#maplienzo .m-backimglayer .activeBackimglayerDiv {
+  border: 5px solid #6799a6 !important;
+}
+
+.m-areas>div.m-area>div.m-panel.m-panel-popup.opened>button.m-panel-btn {
+  color: #7a7a73 !important;
+}
+
+div.m-panel.m-plugin-selectionzoom.opened {
+  z-index: 2500 !important;
+}
+
+.m-areas>div.m-area>div.m-panel.ign-searchlocator-panel.opened {
+  z-index: 1500 !important;
+}
+
+.m-vectors #m-vector-list {
+  max-height: 50vh !important;
+}
+
+.ol-control.ol-profil {
+  top: unset !important;
+  right: 4rem !important;
+  bottom: 3rem !important;
+}
+
+.ol-profil button {
+  background-image: none !important;
+}
+
+#m-ignsearchlocator-results {
+  min-width: 305px;
+}
+
+div.m-areas>div.m-area>div.m-panel-popup.opened {
+  z-index: 99999999;
+}
+
+.m-panel-btn.g-cartografia-flecha-izquierda {
+  z-index: 999999999999999 !important;
+}
+
+#popup-box {
+  max-height: 400px !important;
+}

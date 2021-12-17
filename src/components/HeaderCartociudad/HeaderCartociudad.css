@@ -1,0 +1,185 @@
+:root{
+  --main-backColor: #007BFF;/*#8f2031;*/
+  --language-letter: #e1e0e0;/*#d3aa7d;*/
+  --height-header: 75px;
+}
+
+.site-header{
+  height: var(--height-header);
+  background-color: #364b5f;/* Azul oficial */
+}
+
+.site-header-container {
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  /*background-color: linear-gradient(to right, #000046, #1cb5e0);/*#364b5f;*//* Azul oficial */
+  /* background: rgb(2,0,36);
+  
+  /*background-color: #364b5f;/* Azul oficial */
+  /*background: url("http://10.67.33.168:8087/resources/images/fondo_header_waves.svg") no-repeat center scroll;*/
+  /*background: url("https://www.ign.es/web/comparador_pnoa/img/background-header.png") transparent no-repeat center scroll;
+  background-color: #364b5f;/* Azul oficial */
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,70,1) 35%, rgba(28,181,224,1) 100%); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;  
+}
+
+.top-banner{
+  display: flex;
+  width:100wh;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Fira Sans', sans-serif;
+  z-index: 999999;
+
+  background: url("http://10.67.33.168:8087/resources/images/fondo_header_waves.svg") no-repeat center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+}
+
+.siteHeader__logo img {
+  /* display: flex; */
+  height: 60px;
+  padding: 10px;
+}
+
+/*
+header .logo-ign img:nth-child(1) {
+  max-height: 100px;
+  margin-left: 6px;
+  margin-top: 2px;
+}
+
+header .logo-ign img:nth-child(2) {
+  max-height: 46px;
+  margin-left: 7px;
+  margin-top: 4px;
+} 
+*/
+/*
+  Título de la aplicación
+*/
+
+ header .visor-title {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  margin-right: 0.5rem;
+  opacity: 1;
+  position: relative;
+  text-align: right;
+  font-family: "Avenir Next Condensed Medium";
+  letter-spacing: 0.5px;
+  border-right: 1px solid white;
+} 
+
+header .visor-title span:nth-child(1) {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: -4px;
+}
+
+header .visor-title span:nth-child(1) strong {
+  font-size: 20px;
+  margin-left: 2px;
+}
+
+header .visor-title span:nth-child(2) {
+  color: #d3aa7d;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+header .visor-language {
+  margin-right: 10px;
+  letter-spacing: 0.5px;
+}
+
+header .visor-language > span {
+  color: var(--language-letter);
+  cursor: pointer;
+}
+
+div.lang-container {
+  min-width: 180px;
+}
+
+div.lang-container > p {
+  padding-left: 30px;
+}
+
+div.lang-container > p > span {
+  position: relative;
+  bottom: 2px;
+}
+
+div.lang-button {
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.visor-language .lang-option {
+  font-weight: bold;
+  font-family: "Avenir Next Condensed Medium";
+}
+
+.visor-language .lang-option > i {
+  margin-left: 5px;
+  position: relative;
+  bottom: 3px;
+}
+
+.rc-dropdown {
+  z-index: 999999;
+}
+
+.rc-dropdown-menu {
+  font-family: "Avenir Next Condensed Medium";
+  border-radius: 0px;
+  border: unset;
+  color: var(--language-letter);
+  background-color: var(--main-backColor);
+  box-shadow: 0 1px 5px #000;
+}
+
+.rc-dropdown-menu > .rc-dropdown-menu-item {
+  color: white;
+  font-weight: bold;
+}
+
+.rc-dropdown-menu > .rc-dropdown-menu-item:hover, .rc-dropdown-menu > .rc-dropdown-menu-item-active, .rc-dropdown-menu > .rc-dropdown-menu-item-selected {
+  background-color: #DA7585;
+}
+
+.rc-dropdown-menu > .rc-dropdown-menu-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.rc-dropdown-menu > .rc-dropdown-menu-item:last-child {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+@media (max-width: 870px) {
+  #root > div > div.content-wrapper > header.h-desktop > div.logo {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #root > div > div.content-wrapper > header.h-desktop > div.logo-ign {
+    display: none;
+  }
+}
